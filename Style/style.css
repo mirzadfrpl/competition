@@ -22,6 +22,11 @@ header {
   height: 10%;
   width: 100%;
 }
+
+.logo, span{
+  color: dodgerblue;
+}
+
 .navbar {
   padding: 1rem;
   display: flex;
@@ -48,7 +53,7 @@ header {
   transition: 1s ease-in-out;
 }
 .logo a:hover {
-  color: #3f51b5;
+  color: dodgerblue;
   font-size: 23px;
 }
 .nav-link{
@@ -63,6 +68,6 @@ header {
     transition: 1s ease-in-out;
 }
 .nav-link a:hover{
-    color: #3f51b5;
+    color: dodgerblue;
     font-size: 1.1rem;
 }
